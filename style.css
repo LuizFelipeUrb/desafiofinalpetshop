@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;  
+}
+.navMobile{
+    display: none;
+}
+header{
+    background-color:#252525;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+nav img{
+    width: 3vw;
+    height: 5vh;
+}
+.logo {
+    margin-right: 10px;
+    width: 4vw;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.primeirasessao{
+    background-image: url("Assets/Grupo\ 486.png");
+}
+.segundasessao {
+    background-image: url("Assets/Interseção\ 16.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.segundasessao div{
+    margin-left: 25px;
+    color: #3A342F;
+    width: 50%;
+    height: 50%;
+}
+section  h2{
+    font-size: 50px;
+}
+
+section p{
+    font-size: 27px;
+}
+
+ button{
+    padding: 20px;
+    border-radius: 40px;
+    width: 25vw;
+    margin-top: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 22px;
+}
+.botao1{
+    color: #F4F2F3;
+    background-color: #3A342F;
+}
+
+.terceirasessao{
+    background-image: url("Assets/Grupo 480.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .terceirasessao div{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #F4F2F3;
+        margin-right: 30px;
+    }
+    h3{
+        font-size: 50px;
+        color: #3A342F;
+    }
+    
+    .primeirasessao div{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    .primeirasessao img{
+        
+        width: 15vw;
+        height: 15vh;
+        margin-top: 60px;
+    }
+    .quartasessao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .quartasessao img{
+       margin: 40px;
+       width: 15vw;
+    }
+    .quartasessao p{
+        color: #FD6A9A;
+        font-size: 24px;
+    }
+    footer{
+        display: flex;
+        background-color: #EB4A7B;
+        color: #FFFFFF;
+    }
+    .navegacao{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 35vh;
+    }
+    
+    .navegacao h2{
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .navegacao li{
+       margin: 10px;
+       font-size: 14px;
+       
+    }
+    
+    footer ul{
+        list-style: none;
+        display: flex;
+        flex-direction:column ;
+    }
+    .colunas{
+        display: flex;
+        flex-direction: column;
+     text-align: left;
+    }
+    header nav{
+        width: 15vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+
+
+
+
+
